@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-info{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.board{
+  width: 600px;
+  height: 600px;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btn{
+  width: 30%;
+  height: 30%;
+  background-color: rgb(106, 145, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+}
+
+#btn0, #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8{
+  margin-top: 1rem;
+}
+
+#btn7, #btn8, #btn9{
+  margin-bottom: 1rem;
+}
